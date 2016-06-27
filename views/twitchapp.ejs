@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <!-- This file contains all the markup conent needed for my Twitch.tv -->
+  <!-- application. -->
+  <!-- Justin Lynn Reid 6/16/2016 -->
+  <head>
+    <title>Twitch App</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- All app logic files needed for this app -->
+    <script src="javascripts/invalidUser.js"></script>
+    <script src="javascripts/createApp.js"></script>
+    <script src="javascripts/buttonSwitch.js"></script>
+    <script src="javascripts/twitchapp.js"></script>
+  </head>
+  <body>
+    <!-- Default table rendered at deployment time -->
+    <table id="streamers">
+      <caption>
+          <h1>Twitch Streamers</h1>
+          <button onclick="handleClick('streaming')">Streaming</button>
+          <button onclick="handleClick('offline')">Not Streaming</button>
+          <button onclick="handleClick('both')">Both</button>
+          <button onclick="handleClick('refresh')">Refresh Status</button>
+      </caption>
+    </table>
+  </body>
+</html>

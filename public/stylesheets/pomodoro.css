@@ -1,0 +1,36 @@
+body {
+  background-color: #333333 !important;
+}
+
+#counter {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  color: #ffffff;
+  border-radius:100%;
+  border: 2px solid #86b300;
+  font-size: 20px;
+}
+
+a, a:hover {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.control {
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 70px;
+  color: #ffffff;
+  margin-top: 15%;
+  font-family: 'Pacifico';
+}
+
+div p {
+  margin-top: 50px;
+}

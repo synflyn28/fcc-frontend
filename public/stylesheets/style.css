@@ -1,8 +1,99 @@
+/*This CSS file contains all the styling information for my
+Twitch.tv application
+
+Justin Lynn Reid 6/16/2016
+*/
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans';
 }
 
-a {
-  color: #00B7FF;
+/*Button styles for both display and hover*/
+button {
+  box-shadow: none;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+}
+button:hover{
+  border: 1px solid #013ADF;
+}
+
+td a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Style for table header*/
+caption {
+  background-color: #EEEEEE;
+  width: 720px;
+}
+
+h1 {
+  font-family: 'Orbitron';
+  font-weight: lighter;
+}
+
+/*Styles for streaming and non streaming data rows*/
+.streaming {
+  color: #003366;
+  background-color: #99CC99;
+}
+.offline {
+  color: white;
+  background-color: #999CCC;
+}
+
+/*Style for missing avatar/invalid streamer image (Twitch logo)*/
+.null-img {
+  border-radius: 100%;
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  float: none;
+}
+
+/*Styles for each table row field specifically.*/
+.user {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100px;
+}
+.img {
+  padding-top: 3px;
+  padding-left: 3px;
+  width: 80px;
+}
+.status {
+  padding-right: 10px;
+  width: 500px;
+}
+
+/*Parent style for all table row fields*/
+td {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  margin: none;
+}
+
+/*Style for each table row*/
+tr {
+  border: None;
+  width: 1500px;
+}
+
+/*Style for all valid user avatars*/
+img {
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
 }

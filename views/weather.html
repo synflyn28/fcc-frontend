@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html ng-app="weather-app">
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+      <script src="../../weather_app/mvc.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link href="file:///Users/towershine/FreeCodeCamp_projects/weather_app/wx_app.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    </head>
+    <body ng-controller="obController as ob" style="background-image: url(&quot;{{ob.bgImg}}&quot;)">
+      <h1 class="text-center title">FreeCodeCamp Local Weather App Zipline</h1>
+      <h1 class="text-center subheader">Your current weather</h1>
+      <div class="center-block content">
+        <p> Location: {{ob.data.name}}</p>
+        <p ng-show="ob.meas === 'Fahrenheit'">Temp: {{ 9/5 * (ob.data.main.temp - 273.15) + 32.0 | number: 2}} &deg;F </p>
+        <p ng-show="ob.meas === 'Celsius'">Temp: {{ob.data.main.temp - 273.15 |number: 2}} &deg;C </p>
+        <p>Current Weather: {{ob.data.weather[0].description}}</p>
+        <p>Wind Speed: {{ob.data.wind.speed}} mph</p>
+      </div>
+      <!-- Show different buttons/convert temperature based on given measure -->
+      <button ng-click="ob.setMeasure('Celsius')" ng-show="ob.meas === 'Fahrenheit'" class="center-block">Set Celsius</button>
+      <button ng-click="ob.setMeasure('Fahrenheit')" ng-show="ob.meas === 'Celsius'" class="center-block">Set Fahrenheit</button>
+    </body>
+  </html>

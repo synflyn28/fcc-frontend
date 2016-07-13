@@ -1,0 +1,17 @@
+{
+  "name": "fcc-frontend",
+  "version": "0.0.1",
+  "authors": [
+    "Justin Reid <jlreid@alumni.unca.edu>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}

@@ -1,0 +1,16 @@
+body {
+  padding-top: 15%;
+  font-family: 'open sans';
+}
+
+.quote-button {
+  margin-bottom: 40px;
+  border-radius: 10%;
+  border: 0;
+  font-family: 'open sans';
+}
+
+h1 {
+  font-family: 'cedarville cursive';
+  margin-bottom: 30px;
+}

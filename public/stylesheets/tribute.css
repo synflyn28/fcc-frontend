@@ -1,0 +1,12 @@
+.main-content {
+  margin-top: 3%;
+  width: 1000px;
+  height: 500px;
+  border-radius: 2px;
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+
+.title {
+  font-family: 'Raleway';
+}

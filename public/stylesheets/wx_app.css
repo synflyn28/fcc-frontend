@@ -1,0 +1,33 @@
+body {
+  background-size: 100%;
+  color: #FFFFFF;
+  font-family: 'Lato';
+}
+
+.content {
+  background-color: #000000;
+  opacity: 0.5;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 5%;
+}
+
+.title {
+  margin-top: 5%;
+  text-shadow: 1px 1px #111111;
+}
+
+.subheader {
+  margin-top: 10%;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #111111;
+}
+
+button {
+  background-color: #EEEEEE;
+  color: #111111;
+  border-radius: 5%;
+  border-color: transparent;
+}

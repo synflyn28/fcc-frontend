@@ -1,0 +1,66 @@
+#main-navbar{
+  background-color: transparent;
+  border: 0px;
+  font-family: 'Josefin Slab';
+  font-size:25px;
+  color: #EEEEEE;
+  margin-bottom: 100px;
+}
+
+.summary {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+  font-family: 'Open Sans';
+  color: #EEEEEE;
+  margin-bottom: 100px;
+}
+
+body {
+  background-image: url(https://farm1.staticflickr.com/563/20737638354_b533c01190_o.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  text-shadow: 0px -1.5px #222222 !important;
+  color: #EEEEEE !important;
+  font-family: "Open Sans";
+}
+.example {
+  font-family: 'Open Sans';
+}
+
+#contact {
+  background-color: transparent;
+  font-family: 'Open Sans';
+  margin-bottom: 60px;
+}
+
+.navbar-brand.text-center {
+  font-size: 30px;
+  color: #EEEEEE;
+}
+
+.nav.navbar-nav.navbar-right li > a {
+  color: #EEEEEE;
+}
+
+div.summary > h2.text-center {
+  font-size: 20px;
+}
+
+.col-md-4.example > h2 {
+  font-size: 20px;
+}
+
+#port-section {
+  margin-bottom: 100px;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #EEEEEE !important;
+}
+
+#map {
+  width: 800px;
+  height: 400px;
+}

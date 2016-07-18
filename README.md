@@ -7,7 +7,7 @@ dependencies are handled through Node.js and Bower.
 
 ## Installation and Running Steps
 
-To run locally you must have the latest version of Node installed. Clone this repository using the following commands:
+To run locally you must have the latest version of Node installed. Clone this repository and issue the following commands:
 
 ```bash
 npm run get-depends

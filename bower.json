@@ -12,6 +12,9 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.0.3"
+    "jquery": "~2.0.3",
+    "angular":"~1.5.8",
+    "bootstrap":"*",
+    "leaflet": "*"
   }
 }

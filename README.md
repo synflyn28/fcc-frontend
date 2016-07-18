@@ -14,5 +14,5 @@ npm get-depends
 npm start
 ```
 
-After running npm start, use a web browser and navigate to ```http://localhost:3000``` and the landing page should be
+After running ```npm start```, use a web browser and navigate to ```http://localhost:3000``` and the landing page should be
 visible with a list of all project links.

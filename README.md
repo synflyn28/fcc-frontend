@@ -1,4 +1,4 @@
-# Front End Web Applications for Free Code Camp
+# Front End Web Application Portfolio
 
 This project contains every front-end application I have made for the FreeCodeCamp online web community. This package
 was designed so that a local instance or a cloud instance of my work may be viewable outside of CodePen.io (project link

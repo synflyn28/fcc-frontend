@@ -10,7 +10,7 @@ dependencies are handled through Node.js and Bower.
 To run locally you must have the latest version of Node installed. Clone this repository using the following commands:
 
 ```bash
-npm get-depends
+npm run get-depends
 npm start
 ```
 

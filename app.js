@@ -21,10 +21,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-process.env.PWD = process.cwd();
-
-//app.use(express.static(path.join(__dirname, '/public')));
-app.use('/public',express.static(process.env.PWD+'/public'));
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.use('/', routes);
 app.use('/users', users);

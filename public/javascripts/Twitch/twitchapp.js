@@ -8,8 +8,7 @@ var streamers = [
   "freecodecamp", "brunofin",
   "terakilobyte", "habathcx",
   "RobotCaleb","razer_esports",
-  "jacksepticeye","ESL_SC2",
-  "Markiplier", "comster404"
+  "ESL_SC2", "comster404"
 ];
 
 $(document).ready(function(){

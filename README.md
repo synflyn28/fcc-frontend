@@ -2,8 +2,8 @@
 
 This project contains every front-end application I have made for the FreeCodeCamp online web community. This package
 was designed so that a local instance or a cloud instance of my work may be viewable outside of CodePen.io (project link
-[here](http://codepen.io/synflyn28/)). This project is also designed to work with continuous integration tools and all
-dependencies are handled through Node.js and Bower.
+[here](http://codepen.io/synflyn28/)). The project is also deployed live on Heroku [here](https://fcc-frontend.herokuapp.com).
+This project is also designed to work with continuous integration tools and all dependencies are handled through Node.js and Bower.
 
 ## Installation and Running Steps
 

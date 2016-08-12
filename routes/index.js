@@ -38,4 +38,7 @@ router.get('/tribute', function(req, res, next) {
     res.render('tribute', { title: 'Twitch App | FreeCodeCamp' });
 });
 
+router.get('/tic_tac_toe', function(req, res, next) {
+    res.render('tic_tac_toe', { title: 'Twitch App | FreeCodeCamp' });
+});
 module.exports = router;

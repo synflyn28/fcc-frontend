@@ -20,6 +20,10 @@ ul {
 }
 
 a {
+    color:blue;
+}
+
+a:visited {
     color:gray;
 }
 
